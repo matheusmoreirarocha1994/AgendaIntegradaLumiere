@@ -1,0 +1,24 @@
+/* Seleciona todo o body e define a cor de fundo */
+body {
+  background-color: #037332;
+
+}
+
+/* Centraliza o container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Estiliza a borda do iframe e define a largura e altura */
+/* Estiliza a borda do iframe e define a largura e altura */
+.calendar {
+  border: solid 1px #777;
+  width: 1000px;
+  height: 700px;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
+  background-color: transparent; /* adicionando o fundo transparente */
+}
+
